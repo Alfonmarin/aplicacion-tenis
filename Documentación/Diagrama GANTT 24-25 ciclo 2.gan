@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Diagrama Gantt IS2 Grupo 16 Ciclo 2 24-25" company="" webLink="http://" view-date="2024-12-04" view-index="0" gantt-divider-location="359" resource-divider-location="300" version="3.3.3311" locale="es_ES">
+    <description><![CDATA[Se muestra el diagrama Gantt del proyecto del ciclo 2 del grupo 16, con las tareas realizadas y todas las fechas de inicio y fin.]]></description>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd3" name="Nombre" width="196" order="0"/>
+        <field id="tpd4" name="Fecha de inicio" width="73" order="1"/>
+        <field id="tpd5" name="Fecha de fin" width="74" order="2"/>
+        <field id="tpd15" name="Notas" width="20" order="3"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nombre" width="211" order="0"/>
+        <field id="1" name="Función" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="0" mon="0" tue="0" wed="0" thu="0" fri="0" sat="0"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" uid="9d9318ebfa9e48639aa741cf1b3e6b5f" name="Reunión inicial Ciclo 2" meeting="false" start="2024-12-07" duration="1" complete="100" expand="true"/>
+        <task id="1" uid="2aa2824946fe49a28c5cbb7d49f359a8" name="Realización del Resumen ejecutivo" meeting="false" start="2024-12-13" duration="4" complete="100" expand="true"/>
+        <task id="2" uid="38b7809fba754590abe9e31ebe68f9fe" name="Revisión documento ERS" meeting="false" start="2024-12-07" duration="2" complete="100" expand="true"/>
+        <task id="3" uid="1b842d6227904a1eb83371ff77fb6c88" name="Revisión documento Estrategia" meeting="false" start="2024-12-07" duration="1" complete="100" expand="true"/>
+        <task id="4" uid="6fabea2512b7468c9f3bd388543a2b23" name="Corrección documento Estrategia" meeting="false" start="2024-12-08" duration="1" complete="100" expand="true"/>
+        <task id="5" uid="b949f5bba88c44e7bdba034b05b90b6e" name="Revisión documento PGCS" meeting="false" start="2024-12-07" duration="1" complete="100" expand="true"/>
+        <task id="6" uid="7fc781acfa494b9ab7b893b65810a127" name="Corrección documento PGCS" meeting="false" start="2024-12-08" duration="1" complete="100" expand="true"/>
+        <task id="7" uid="7d85e101d84e43138f3668e3e4a5c458" name="Actualización Hoja Valor Ganado" meeting="false" start="2024-12-08" duration="11" complete="100" expand="true"/>
+        <task id="8" uid="6fd4921cfb7f4d48bac9f13fb22fc7d1" name="Revisión DAN" meeting="false" start="2024-12-11" duration="3" complete="100" expand="true"/>
+        <task id="9" uid="9a33cb13d6b6496ea424354ebce38058" name="Revisión DBN" meeting="false" start="2024-12-12" duration="1" complete="100" expand="true"/>
+        <task id="10" uid="20bcdc7e0d4c4019b64fb2e93b2caf37" name="Implementación de código para reestablecimiento de contraseña" meeting="false" start="2024-12-09" duration="2" complete="100" expand="true"/>
+        <task id="11" uid="4bf229031b114fb782287a2453187ca6" name="Implementación de código para configurar el botón de estadísticas" meeting="false" start="2024-12-10" duration="3" complete="100" expand="true"/>
+        <task id="12" uid="63bbbe941def48be89f72d898e224a59" name="Implementación de código para configurar el ranking global" meeting="false" start="2024-12-12" duration="1" complete="100" expand="true"/>
+        <task id="13" uid="c35fd0ba5ddd4db4bdf51225435078ab" name="Implementación de código para automatizar el proceso de elección de ganador de un partido" meeting="false" start="2024-12-13" duration="1" complete="100" expand="true"/>
+        <task id="14" uid="f545d6c6a28c40fc9f9c626c27401d94" name="Implementación de código para automatizar la clasificación de cada torneo" meeting="false" start="2024-12-13" duration="2" complete="100" expand="true"/>
+        <task id="15" uid="ddaf224a2d9b4bfea11a15bd16d84d66" name="Implementación de código para arreglar establecimiento de puntos" meeting="false" start="2024-12-14" duration="1" complete="100" expand="true"/>
+        <task id="16" uid="4c3a30f2877843b7bca44b1e1749c071" name="Implementación de código para creación de sistema de clasificación" meeting="false" start="2024-12-15" duration="1" complete="100" expand="true"/>
+        <task id="17" uid="2fe6ab2ae71f4ac4880f7808147bc12e" name="Mejorar el diseño de la app (incluye todas las pantallas de ella)" meeting="false" start="2024-12-09" duration="8" complete="100" expand="true"/>
+        <task id="18" uid="d7bb2efb0740463cb1ad3149c1552dc4" name="Realizar diagrama GANTT" meeting="false" start="2024-12-07" duration="12" complete="100" expand="true"/>
+        <task id="19" uid="dedad959f8534969b1960eb0c7bae052" name="Inspeccion de codigo" meeting="false" start="2024-12-15" duration="1" complete="100" expand="true"/>
+        <task id="20" uid="56fd23fe3114423eabc429fdaa953d33" name="Realización de pruebas Unitarias" meeting="false" start="2024-12-15" duration="2" complete="100" expand="true"/>
+        <task id="21" uid="6ce67a669c1243b6a0b4f472ac7648d8" name="Realización de pruebas del Sistema" meeting="false" start="2024-12-15" duration="2" complete="100" expand="true"/>
+        <task id="22" uid="3445e986293441ec8a8217a451808611" name="Reunión de revisión de código y pruebas" meeting="false" start="2024-12-15" duration="2" complete="100" expand="true"/>
+        <task id="23" uid="d09ac34fb89d4e788f4d37f8cbe3fed2" name="Construir y presentar la DEMO final" meeting="false" start="2024-12-16" duration="3" complete="100" expand="true"/>
+        <task id="24" uid="9752d3ec9ed547f1933d224046cd47de" name="Realización de la presentación" meeting="false" start="2024-12-16" duration="2" complete="100" expand="true"/>
+        <task id="25" uid="eac1265abe3f4f8b9de1ba45c427f7d3" name="Reunión Postmortem" meeting="false" start="2024-12-16" duration="2" complete="100" expand="true"/>
+        <task id="26" uid="5af3bc3b4d7a4d03b3e588c1f3cdd4b2" name="Análisis Postmortem" meeting="false" start="2024-12-16" duration="2" complete="100" expand="true"/>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Diagrama Gantt Ciclo 1 IS2 Grupo 16 24-25" company="ETSIINF_IS2_Grupo16" webLink="http://" view-date="2024-09-04" view-index="0" gantt-divider-location="666" resource-divider-location="300" version="3.3.3311" locale="es_ES">
+    <description><![CDATA[Se muestra el diagrama Gantt del proyecto del ciclo 1 del grupo 16, con las tareas realizadas y todas las fechas de inicio y fin.]]></description>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd3" name="Nombre" width="403" order="0"/>
+        <field id="tpd4" name="Fecha de inicio" width="118" order="1"/>
+        <field id="tpd5" name="Fecha de fin" width="129" order="2"/>
+        <field id="tpd15" name="Notas" width="20" order="3"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nombre" width="210" order="0"/>
+        <field id="1" name="Función" width="87" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="0" mon="0" tue="0" wed="0" thu="0" fri="0" sat="0"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" uid="9e6fa4d6e8304ab8bb3964280a346987" name="Reunión inicial" meeting="false" start="2024-09-07" duration="71" complete="100" expand="true"/>
+        <task id="1" uid="3275b4cd817f47f69cb55d90e730d0b7" name="Asignación de roles" meeting="false" start="2024-09-07" duration="71" complete="100" expand="true"/>
+        <task id="2" uid="2762aa90a5c34f8a95de9ce2dc6cf8f4" name="Resumen ejecutivo" meeting="false" start="2024-09-28" duration="50" complete="100" expand="true"/>
+        <task id="3" uid="607ca4bf763d4ea79d3324c7b7aee579" name="Lectura y comprensión del proyecto" meeting="false" start="2024-09-21" duration="21" complete="100" expand="true"/>
+        <task id="33" uid="fb69070dbaee409da2d4e97e23cae946" name="Planificación conjunta de realización de tareas" meeting="false" start="2024-09-19" duration="51" complete="100" expand="true"/>
+        <task id="35" uid="4f5b4618c2e448798342192bf2a27165" name="Realizar estimación de tiempos de tareas" color="#8cb6ce" meeting="false" start="2024-09-19" duration="51" complete="100" expand="true"/>
+        <task id="36" uid="12ff996e96e34e0692c67617d6c1ab3a" name="Establecimiento de fechas limite de realización de tareas" color="#8cb6ce" meeting="false" start="2024-09-19" duration="51" complete="100" expand="true"/>
+        <task id="37" uid="450274272f6e4130a2408573b2c9ab43" name="Reparto de tareas" meeting="false" start="2024-09-19" duration="30" complete="100" expand="true"/>
+        <task id="38" uid="624a66eceab440698222010d0f2fa5bd" name="Establecimiento de tareas Ciclo 1" meeting="false" start="2024-11-02" duration="1" complete="100" expand="true"/>
+        <task id="39" uid="aeffee0183354c5bb7d6bc14b1b6b82e" name="Realización de requisitos (ERS)" meeting="false" start="2024-10-02" duration="27" complete="100" expand="true"/>
+        <task id="44" uid="c988bba3fd7c4ec5a4bd3786c3fdbbc4" name="Realización de ficheros logicos internos (ILF)" color="#8cb6ce" meeting="false" start="2024-10-02" duration="24" complete="100" expand="true"/>
+        <task id="43" uid="9854ccaa72714fd9bf22cfdd8d08e276" name="Realización de ficheros lógicos externos (EIF)" color="#8cb6ce" meeting="false" start="2024-10-02" duration="27" complete="100" expand="true"/>
+        <task id="42" uid="f8886c5a96e94d7fbadae253de3c392f" name="Realización de consultas externas (EQ)" color="#8cb6ce" meeting="false" start="2024-10-02" duration="27" complete="100" expand="true"/>
+        <task id="41" uid="833c3d97afd24bdfabced0a0acc41de6" name="Realización de Entradas externas (EI)" color="#8cb6ce" meeting="false" start="2024-10-02" duration="27" complete="100" expand="true"/>
+        <task id="45" uid="1ca1c3bc6d6f4c2794abfcfc8d31978d" name="Revisión de requisitos I" meeting="false" start="2024-10-16" duration="1" complete="100" expand="true"/>
+        <task id="46" uid="abee4e22d5894ffb8604b54b1eb953d2" name="Cálculo de puntos de función" color="#8cb6ce" meeting="false" start="2024-10-02" duration="27" complete="100" expand="true"/>
+        <task id="47" uid="ae5f79b9ec184938a305913853768690" name="Selección de requisitos a desarrollar" meeting="false" start="2024-10-04" duration="1" complete="100" expand="true"/>
+        <task id="48" uid="7d37b197fae54d98b4b2e0f1576013c8" name="Realización de Gestión de Configuración Software (GCS)" meeting="false" start="2024-10-18" duration="13" complete="100" expand="true"/>
+        <task id="49" uid="7ae50dfe97af4526b9c0956e428a9a4c" name="Revisión de tareas" meeting="false" start="2024-11-02" duration="1" complete="100" expand="true"/>
+        <task id="50" uid="b40ab515acd14050aab31ad54ee24aa7" name="Reunión de planificación" meeting="false" start="2024-09-23" duration="20" complete="100" expand="true"/>
+        <task id="51" uid="5c2010fa21504dac817b591ec28305f6" name="Reunión de diseño" meeting="false" start="2024-10-05" duration="29" complete="100" expand="true"/>
+        <task id="52" uid="51dc9191379f4b869ca73fbf13bc5c0d" name="Selección de entorno" meeting="false" start="2024-09-16" duration="18" complete="100" expand="true"/>
+        <task id="53" uid="b99c228558af45e7836f6d31d58d791c" name="Actualización Hoja Valor Ganado" meeting="false" start="2024-11-01" duration="6" complete="100" expand="true"/>
+        <task id="54" uid="ad3dda16c27f4ac8b30530ecf5856abc" name="Realizar diseño de alto nivel (DAN)" meeting="false" start="2024-11-02" duration="2" complete="100" expand="true"/>
+        <task id="55" uid="405e7eab3336421692bd6282f20dad8a" name="Realizar diseño de bajo nivel (DBN)" color="#8cb6ce" meeting="false" start="2024-11-03" duration="6" complete="100" expand="true"/>
+        <task id="56" uid="f5a6e190d67a447cad6f51610d4120f6" name="Revisión diseño alto nivel" color="#8cb6ce" meeting="false" start="2024-11-03" duration="6" complete="100" expand="true"/>
+        <task id="57" uid="a16bf84e16934e3b968f4ef5660aa389" name="Revisión diseño bajo nivel" color="#8cb6ce" meeting="false" start="2024-11-03" duration="6" complete="100" expand="true"/>
+        <task id="58" uid="19a55e07100144c081fbb4a82c82eae4" name="Creación de la base de la aplicación" meeting="false" start="2024-11-02" duration="2" complete="100" expand="true"/>
+        <task id="59" uid="dedbbabe9e0c48b58b4ca63b15b43d41" name="Implementación de la creación de usuarios" meeting="false" start="2024-11-03" duration="6" complete="100" expand="true"/>
+        <task id="60" uid="dd11e2f128d0465ab01b82406b0ccdd7" name="Implementación de la modificación de usuarios" color="#8cb6ce" meeting="false" start="2024-11-03" duration="6" complete="100" expand="true"/>
+        <task id="62" uid="af8476067a49499992df42ffe686e95f" name="Implementación de la eliminación de usuarios" color="#8cb6ce" meeting="false" start="2024-11-03" duration="6" complete="100" expand="true"/>
+        <task id="63" uid="5ef24ffabaeb4dbba19f4f790344c110" name="Implementación de roles de usuario" color="#8cb6ce" meeting="false" start="2024-11-03" duration="6" complete="100" expand="true"/>
+        <task id="64" uid="b5aee23f5ae74cf5bedaa876f7fe300a" name="Implementación de inicio de sesión" color="#8cb6ce" meeting="false" start="2024-11-03" duration="6" complete="100" expand="true"/>
+        <task id="65" uid="82babff2296844fc91802a6020165832" name="Implementación de creación de torneos" meeting="false" start="2024-11-05" duration="4" complete="100" expand="true"/>
+        <task id="66" uid="9f2c23b265a44f97ba1a41ab9c7b2f4c" name="Implementación de emparejamiento de jugadores" color="#8cb6ce" meeting="false" start="2024-11-08" duration="9" complete="100" expand="true"/>
+        <task id="67" uid="b171bf8c918d4d298d653c66a56f4c9f" name="Implementación de actualización de resultados" color="#8cb6ce" meeting="false" start="2024-11-08" duration="9" complete="100" expand="true"/>
+        <task id="68" uid="d6255369f228428db40d8acdd67889c1" name="Implementación de proceso de inscripción" meeting="false" start="2024-11-05" duration="4" complete="100" expand="true"/>
+        <task id="69" uid="d129350ffea642bda53253dcefdf4612" name="Implementación de selección de jugadores" color="#8cb6ce" meeting="false" start="2024-11-08" duration="9" complete="100" expand="true"/>
+        <task id="70" uid="b8577c8e9b5841269a7e303c4527f968" name="Implementación de creación y configuración de partidos" color="#8cb6ce" meeting="false" start="2024-11-08" duration="9" complete="100" expand="true"/>
+        <task id="71" uid="cf9881fd674540e8b5a6e7466768d0c3" name="Implementación de registro de resultados" color="#8cb6ce" meeting="false" start="2024-11-12" duration="5" complete="100" expand="true"/>
+        <task id="72" uid="715085ad7bc645d481faebf5b470e2b3" name="Implementación de consulta de partidos" color="#8cb6ce" meeting="false" start="2024-11-12" duration="5" complete="100" expand="true"/>
+        <task id="73" uid="f05325389a094cb18c496a8cee444630" name="Inspección de código" color="#8cb6ce" meeting="false" start="2024-11-12" duration="5" complete="100" expand="true"/>
+        <task id="74" uid="d4c3f55f99e246458c31501c8a21e958" name="Realización de pruebas unitarias" color="#8cb6ce" meeting="false" start="2024-11-13" duration="5" complete="100" expand="true"/>
+        <task id="75" uid="69970a40e7c24af8872518787cc94a39" name="Realización de pruebas del sistema" color="#8cb6ce" meeting="false" start="2024-11-13" duration="5" complete="100" expand="true"/>
+        <task id="77" uid="a435fbf1eb7749bf9a097bc6a995a583" name="Demo" color="#8cb6ce" meeting="false" start="2024-11-17" duration="3" complete="100" expand="true"/>
+        <task id="79" uid="8d7108af23a04798b6e51c8f1f6097f2" name="Reunión PostMortem" color="#8cb6ce" meeting="false" start="2024-11-17" duration="2" complete="100" expand="true"/>
+        <task id="80" uid="d90a38effab2494396d616157d06f589" name="Análisis PostMortem" color="#8cb6ce" meeting="false" start="2024-11-17" duration="2" complete="100" expand="true"/>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>

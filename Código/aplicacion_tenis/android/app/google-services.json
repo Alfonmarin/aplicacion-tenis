@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "786662910063",
+    "project_id": "tenis-upm-2a7d8",
+    "storage_bucket": "tenis-upm-2a7d8.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:786662910063:android:0a8ccfd673f2a25dc3c59a",
+        "android_client_info": {
+          "package_name": "com.example.aplicacion_tenis"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmfXwulWSDNVwztrH-Enc2WeF0ydHI7PY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
